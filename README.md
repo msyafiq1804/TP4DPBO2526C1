@@ -1,6 +1,50 @@
 # JANJI 
 Saya Muhammad Syafiq A dengan NIM 2500254 mengerjakan TP 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
+### Struktur File 
+```
+│   .gitignore
+│   PeopleData.iml
+│
+├───.idea
+│       .gitignore
+│       misc.xml
+│       modules.xml
+│       uiDesigner.xml
+│       vcs.xml
+│       workspace.xml
+│
+├───out
+│   └───production
+│       └───PeopleData
+│           │   PeopleMenu$1.class
+│           │   PeopleMenu$2.class
+│           │   PeopleMenu$3.class
+│           │   PeopleMenu$4.class
+│           │   PeopleMenu.class
+│           │   Person.class
+│           │
+│           └───com
+│               └───intellij
+│                   └───uiDesigner
+│                       └───core
+│                               AbstractLayout.class
+│                               DimensionInfo.class
+│                               GridConstraints.class
+│                               GridLayoutManager.class
+│                               HorizontalInfo.class
+│                               LayoutState.class
+│                               Spacer.class
+│                               SupportCode$TextWithMnemonic.class
+│                               SupportCode.class
+│                               Util.class
+│                               VerticalInfo.class
+│
+└───src
+        PeopleMenu.form
+        PeopleMenu.java
+        Person.java
+```
 
 # FUNGSI PROGRAM & PENJELASAN ALUR PROGRAM
 
