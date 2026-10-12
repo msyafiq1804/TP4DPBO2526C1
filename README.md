@@ -20,3 +20,14 @@ Pengguna disediakan form input untuk mendaftarkan pasien baru, di mana mereka bi
 
 Untuk melakukan proses edit (Ubah) atau hapus (Delete), pengguna wajib mengklik salah satu baris data di dalam tabel terlebih dahulu. Setelah diklik, data tersebut akan ditarik kembali ke form isian, tombol "Add" beralih fungsi menjadi "Update", dan tombol "Delete" yang sebelumnya bersembunyi akan muncul. Sebagai langkah pencegahan, ketika tombol "Delete" ditekan, sistem akan memunculkan kotak dialog konfirmasi (Yes/No) sebelum benar-benar menghapus data tersebut.
 
+### Dokumentasi 
+
+ADD 
+<img width="918" height="618" alt="Add" src="https://github.com/user-attachments/assets/160f1242-73b7-4354-b722-ae1771f993bb" />
+
+DELETE
+<img width="917" height="607" alt="Delete 1" src="https://github.com/user-attachments/assets/fefc2a6a-d5e8-49ec-b9aa-47b2daa12b78" />
+<img width="917" height="607" alt="Delete 2" src="https://github.com/user-attachments/assets/a894baca-5b1d-4415-a27d-3803b5107e7b" />
+
+UPDATE
+<img width="920" height="622" alt="Update" src="https://github.com/user-attachments/assets/ce5120d6-c2f9-4341-8f14-136c39a2aa1d" />
