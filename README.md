@@ -50,7 +50,7 @@ Saya Muhammad Syafiq A dengan NIM 2500254 mengerjakan TP 4 dalam mata kuliah Des
 
 ## Tujuan dibuatnya program ini untuk mengolah data dari pasien yang terdaftar di rumah sakit atau klinik, meliputi identitas dasar hingga status perawatannya.
 
-### 1. Struktur Class
+### 1. Struktur Class Person
 Program ini menerapkan konsep enkapsulasi pada class modelnya. Seluruh variabel dideklarasikan sebagai private untuk melindungi data, sehingga proses membaca atau mengubah nilai harus dilakukan melalui method getter dan setter.
 Atribut yang tersimpan meliputi:
 - id (String)
@@ -59,7 +59,31 @@ Atribut yang tersimpan meliputi:
 - kategori (String)
 - statusRawat (String)
 
-### 2. Penjelasan Alur Program
+### 2. Desain Class PeopleMenu
+Class PeopleMenu adalah class utama yang mengatur tampilan antarmuka dan logika program. Class ini menggunakan JFrame sebagai jendela utama aplikasi.
+Komponen yang digunakan dalam program meliputi:
+
+- JPanel mainPanel : panel utama aplikasi
+- JLabel titleLabel : label judul aplikasi
+- JTextField idField, namaField, tahunLahirField : menerima input teks untuk ID, Nama, dan Tahun Lahir pasien
+- JComboBox kategoriComboBox : memilih kategori pasien
+- JRadioButton rawatInapRadio, rawatJalanRadio : memilih status perawatan pasien (opsi atribut bonus)
+- JButton addUpdateButton, cancelButton, deleteButton : menjalankan operasi tambah/ubah data, batalkan isian (kosongkan form), dan hapus data
+- JTable personTable : menampilkan daftar rekaman data pasien
+
+Pilihan kategori pasien terdiri dari:
+
+- ??? (Pilihan awal/kosong)
+- BPJS
+- Umum
+- Asuransi
+
+Pilihan status rawat pasien terdiri dari:
+- Rawat Inap
+- Rawat Jalan
+
+
+### 3. Penjelasan Alur Program
 Pengguna disediakan form input untuk mendaftarkan pasien baru, di mana mereka bisa mengetikkan ID, Nama, dan Tahun Lahir. Selain itu, terdapat menu dropdown untuk menentukan Kategori (BPJS, Umum, atau Asuransi) dan radio button untuk Status Rawat (Rawat Inap atau Rawat Jalan). Seluruh rekaman data akan langsung ditampilkan pada tabel di bagian bawah aplikasi yang bisa di-scroll.
 
 Untuk melakukan proses edit (Ubah) atau hapus (Delete), pengguna wajib mengklik salah satu baris data di dalam tabel terlebih dahulu. Setelah diklik, data tersebut akan ditarik kembali ke form isian, tombol "Add" beralih fungsi menjadi "Update", dan tombol "Delete" yang sebelumnya bersembunyi akan muncul. Sebagai langkah pencegahan, ketika tombol "Delete" ditekan, sistem akan memunculkan kotak dialog konfirmasi (Yes/No) sebelum benar-benar menghapus data tersebut.
